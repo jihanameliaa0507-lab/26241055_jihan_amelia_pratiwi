@@ -1,0 +1,21 @@
+# P5 - Membandingkan Dua Digit NIM
+
+nama = input("nama mahasiswa : ")
+nim = input("NIM : ")
+a = int(input("Digit A (5) : "))
+b = int(input("Digit B (5) : "))
+
+print()
+print("===== HASIL =====")
+print("Nama mahasiswa :", nama)
+print("NIM lengkap    :", nim)
+print("Digit A        :", a)
+print("Digit B        :", b)
+print()
+print("===== PERBANDINGAN A dan B =====")
+print(f"{a} == {b} : {a == b}")
+print(f"{a} != {b} : {a != b}")
+print(f"{a} >  {b} : {a > b}")
+print(f"{a} <  {b} : {a < b}")
+print(f"{a} >= {b} : {a >= b}")
+print(f"{a} <= {b} : {a <= b}")
